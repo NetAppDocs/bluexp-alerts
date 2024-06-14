@@ -17,12 +17,10 @@ indexpage:
       url: /alerts-start-prerequisites.html
     - title: Quick start
       url: /alerts-start-quick-start.html
-    - title: Set up BlueXP ransomware protection
+    - title: Set up BlueXP alerts
       url: /alerts-start-setup.html
-    - title: Access BlueXP ransomware protection 
+    - title: Access BlueXP alerts 
       url: /alerts-start-login.html
-    - title: Configure backup destinations and enable threat detection
-      url: /alerts-use-settings.html 
     - title: FAQ
       url: /alerts-faq.html 
   - title: Use BlueXP alerts
@@ -33,8 +31,6 @@ indexpage:
       url: /alerts-start-discover.html 
     - title: View workload health using the Dashboard
       url: /alerts-use-dashboard.html
-    - title: Protect workloads
-      url: /alerts-use-protect.html
 #   - title: Monitor BlueXP alerts jobs
 #     url: /alerts-use-monitor-jobs.html 
   - title: Blogs & community
