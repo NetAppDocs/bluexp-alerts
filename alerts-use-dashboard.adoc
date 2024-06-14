@@ -1,17 +1,17 @@
 ---
 sidebar: sidebar
-permalink: rp-use-dashboard.html
-keywords: ransomware protection, ransomware protection dashboard, detect ransomware attacks, recover from ransomware attack
-summary: The BlueXP ransomware protection Dashboard provides information about the protection health of your workloads. You can quickly determine workloads that are at risk or protected, impacted workloads impacted by an incident or in recovery, and gauge the extent of protection by looking at how much storage is protected or at risk. You can also use the Dashboard to review and act on protection recommendations.
+permalink: alerts-use-dashboard.html
+keywords: alerts, alerts dashboard, ontap, netapp
+summary: The BlueXP alerts Dashboard provides information about the protection health of your workloads. You can quickly determine workloads that are at risk or protected, impacted workloads impacted by an incident or in recovery, and gauge the extent of protection by looking at how much storage is protected or at risk. You can also use the Dashboard to review and act on protection recommendations.
 ---
 
-= View workload health at a glance using the Dashboard
+= View ONTAP storage health at a glance using the Dashboard
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-The BlueXP ransomware protection Dashboard provides at-a-glance information about the protection health of your workloads. You can quickly determine workloads that are at risk or protected, identify workloads impacted by an incident or in recovery, and gauge the extent of protection by looking at how much storage is protected or at risk.  
+The BlueXP alerts Dashboard provides at-a-glance information about the protection health of your workloads. You can quickly determine workloads that are at risk or protected, identify workloads impacted by an incident or in recovery, and gauge the extent of protection by looking at how much storage is protected or at risk.  
 
 You can also use the Dashboard to review and act on protection recommendations, access global settings, download reports, and access this technical documentation. 
 
@@ -19,7 +19,7 @@ You can also use the Dashboard to review and act on protection recommendations, 
 
 .Steps
 
-. From the BlueXP left navigation, select *Protection* > *Ransomware protection*. 
+. From the BlueXP left navigation, select *Monitoring* > *Alerts*. 
 +
 After discovery, the Dashboard shows you the health of workload data protection. 
 +
@@ -55,7 +55,7 @@ The total number of actions does not include dismissed actions.
 
 == Review protection recommendations on the Dashboard
 
-BlueXP ransomware protection assesses the protection on your workloads and recommends actions to improve that protection. 
+BlueXP alerts assesses the protection on your workloads and recommends actions to improve that protection. 
 
 You can review a recommendation and act on it, which changes the recommendation status to Complete. Or, if you want to act on it later, you can dismiss it. Dismissing an action moves the recommendation to a list of dismissed actions, which you can review later. 
 
@@ -68,7 +68,7 @@ Here is a sampling of the recommendations that the service offers.
 | How to resolve
 
 
-| Add a ransomware protection policy. | The workload is currently not protected.  | Assign a policy to the workload. 
+| Add a alerts policy. | The workload is currently not protected.  | Assign a policy to the workload. 
 Refer to link:rp-use-protect.html[Protect workloads against ransomware attacks].
 | Prepare <backup provider> as a backup destination to back up your workload data. | The workload does not currently have any backup destinations. | Add backup destinations to this workload to protect it. 
 Refer to link:rp-use-settings.html[Configure protection settings].
@@ -93,7 +93,7 @@ Refer to link:rp-use-alert.html[Respond to a detected ransomware alert].
 
 .Steps
 
-. From the BlueXP left navigation, select *Protection* > *Ransomware protection*. 
+. From the BlueXP left navigation, select *Protection* > *alerts*. 
 
 . From the Recommended actions pane, select a recommendation and select *Review and fix*. 
 
@@ -122,7 +122,7 @@ The CSV files include data for all workloads on all BlueXP working environments.
 
 .Steps
 
-. From the BlueXP left navigation, select *Protection* > *Ransomware protection*.
+. From the BlueXP left navigation, select *Protection* > *alerts*.
 +
 image:screen-dashboard.png[Dashboard page]
  
@@ -131,7 +131,7 @@ image:screen-dashboard.png[Dashboard page]
 . Do one of the following:
 * From the Dashboard or other page, select the *Download* image:button-download.png[Download option] option. 
 
-* From the BlueXP ransomware protection menu, select *Reports*. 
+* From the BlueXP alerts menu, select *Reports*. 
 
 . If you selected the *Reports* option, select one of the preconfigured named files and select *Download (CSV)*. 
 
@@ -139,12 +139,12 @@ image:screen-dashboard.png[Dashboard page]
 
 == Access technical documentation 
 
-You can access the technical documentation from docs.netapp.com or from inside the BlueXP ransomware protection service. 
+You can access the technical documentation from docs.netapp.com or from inside the BlueXP alerts service. 
 
 .Steps 
 
-. From the BlueXP left navigation, select *Protection* > *Ransomware protection*.
+. From the BlueXP left navigation, select *Protection* > *alerts*.
 
 . From the Dashboard, select the vertical *Actions* image:button-actions-vertical.png[Vertical Actions option] option.
 
-. Select *What's new* to view details in the Release Notes or *Documentation* to view the BlueXP ransomware protection documentation Home page.  
+. Select *What's new* to view details in the Release Notes or *Documentation* to view the BlueXP alerts documentation Home page.  

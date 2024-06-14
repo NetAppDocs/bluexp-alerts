@@ -37,7 +37,7 @@ NOTE: If you don't have a BlueXP Connector or it's not the one for this service,
 
 . If you haven't done so already, select the *Discover workloads* option. 
 +
-Refer to link:rp-start-discover.html[Discover workloads].
+Refer to link:alerts-start-discover.html[Discover workloads].
  
 //* If you are a BlueXP user with an an existing Connector, when you select "*alerts*", a message appears about signing up. 
 

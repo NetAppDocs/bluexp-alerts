@@ -27,7 +27,6 @@ link:alerts-start-prerequisites.html[Ensure your environment meets these require
 
 
 [role="quick-margin-list"]
-* link:rp-start-setup.html[Prepare NetApp StorageGRID,Amazon Web Services, or Microsoft Azure as a backup destination].
 * link:alerts-start-setup.html[Configure a Connector in BlueXP].
 * link:alerts-start-discover.html[Discover workloads in BlueXP].
 
