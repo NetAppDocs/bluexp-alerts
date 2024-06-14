@@ -1,0 +1,54 @@
+---
+sidebar: sidebar
+permalink: alerts-faq.html
+keywords: alerts faq, alerts frequently asked questions
+summary: This FAQ can help if you're just looking for a quick answer to a question.
+---
+
+= Frequently asked questions for BlueXP alerts
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== Access
+
+*What's the BlueXP alerts URL?*
+For the URL, in a browser, enter: https://console.bluexp.netapp.com/[https://console.bluexp.netapp.com/^] to access the BlueXP console. 
+
+*Do you need a license to use BlueXP alerts?*
+
+You can use the following license types:
+
+* Sign up for a 90-day free trial.
+* Bring your own license (BYOL), which is a NetApp License File (NLF) that you obtain from your NetApp Sales Rep. You can use the license serial number to get the BYOL activated in BlueXP digital wallet.
+
+
+*How do you enable BlueXP alerts?* 
+BlueXP alerts does not require any enablement. The alerts option is automatically enabled on the BlueXP left navigation. 
+
+To get going, you need to sign up or reach out to your NetApp Sales rep to try out this service. Then, when you use the BlueXP Connector, it will include the appropriate capabilities for the service.
+
+
+**Does BlueXP alerts available in standard, restricted, and private modes?**
+At this time, BlueXP alerts is available only in standard mode. Stay tuned for more. 
+
+For an explanation about these modes across all BlueXP services, refer to https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[BlueXP deployment modes^].
+
+**How are access permissions handled?**
+Only account admins have the ability to initiate the service and discover workloads (because this involves committing to usage of a resource). Subsequent interactions can be done by any role.
+
+**What device resolution is best?**
+The recommended device resolution for BlueXP alerts is 1920x1080 or better. 
+
+**Which browser should I use?**
+Any modern browser will work. 
+
+
+
+
+
+
+

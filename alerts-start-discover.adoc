@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: alerts-start-discover.html
+keywords: bluexp, ontap, alerts
+summary: During discovery, BlueXP alerts analyzes all volumes in ONTAP working environments across all BlueXP Connectors and accounts.     
+---
+
+= Discover workloads in BlueXP alerts
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+To use BlueXP alerts, the service needs to first discover data. During discovery, BlueXP alerts analyzes all volumes in ONTAP working environments across all BlueXP Connectors and accounts.
+
+NOTE: Workloads with volumes that use FlexGroup or iSCSI will not be discovered. 
+
+
+
+.Steps
+
+. From the BlueXP left navigation, select *Monitoring* > *Alerts*. 
+
+. Select *Discover workloads* from the initial landing page. 
++
+The service discovers workload data and shows the health of your ONTAP storage environment in the Dashboard.
++
+image:screen-dashboard.png[BlueXP alerts Dashboard]
+
+//== Set up email notifications 
+
+//You can send specific types of notifications by email so you can be informed of important system activity even when you’re not logged into BlueXP. Emails can be sent to any users who are part of your BlueXP account, or to any other recipients who need to be aware of certain types of system activity.
+
+//NOTE: Sending email notifications is not supported when the Connector is installed in a site without internet access.
+
+//By default, BlueXP Account Admins will receive emails for all "Critical" and "Recommendation" notifications. 
+
+//For instructions on configuring email settings, see https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#set-email-notification-settings[Configure email settings in BlueXP^]

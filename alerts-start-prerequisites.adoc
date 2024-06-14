@@ -1,0 +1,39 @@
+---
+sidebar: sidebar
+permalink: alerts-start-prerequisites.html
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites
+summary: Get started with BlueXP alerts by verifying support for your environment, network access, login and web browser.
+---
+
+= BlueXP alerts prerequisites
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/get-started/
+
+[.lead]
+Get started with BlueXP alerts by verifying the readiness of your operational environment, login, network access, and web browser.
+
+To use BlueXP alerts, you'll need these prerequisites: 
+
+
+* ONTAP 9.11.1 and later
+** Cluster admin ONTAP permissions
++
+For more licensing details, refer to link:concept-alerts.html[Learn about BlueXP alerts].
+
+
+* In BlueXP: 
+
+** A BlueXP working environment with NetApp on-premises storage (using NAS or CIFS protocols)
+** A BlueXP Connector for an on-premises region must be set up in BlueXP. Refer to https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[BlueXP documentation to configure the Connector^].
++
+NOTE: If you have multiple BlueXP Connectors, the service will scan data across all Connectors beyond the one that currently shows in the BlueXP UI. 
+
+
+
+** A BlueXP account with at least one active Connector connecting to on-premises ONTAP clusters. All source and working environments must be on the same BlueXP account. 
+** A BlueXP user account with Account Admin privileges for discovering resources
+** A BlueXP working environment with NetApp on-premises storage (using NAS or CIFS protocols)
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[Standard BlueXP requirements^]
+
+

@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager
+summary: Learn what's new in BlueXP alerts.
+---
+
+= Release notes: What's new with BlueXP alerts protection
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new in BlueXP alerts.
+
+// tag::whats-new[]
+
+== 10 August 2024
+This initial release of BlueXP alerts includes the following features:
+
+
+* *FEATURE 1*: FEATURE DESCRIPTION
++
+//link:rp-use-protect.html[Learn more about protecting workloads  and enabling backup locking in a alerts protection strategy].
+https://docs.netapp.com/us-en/bluexp-alerts-protection/rp-use-protect.html[Learn more about protecting workloads and enabling backup locking].
+
+* *FEATURE 2*: FEATURE DESCRIPTION
++ 
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html[Learn about BlueXP alerts].
+
+
+
+
+// end::whats-new[] 
+
