@@ -19,13 +19,10 @@ BlueXP alerts is a service that enables you to view issues or potential risks in
 
 == What you can do with BlueXP alerts 
 
-The BlueXP alerts service helps you stay informed about risks or potential risk in your ONTAP storage environment. You can view alerts related to the following aspects: 
+The BlueXP alerts service helps you stay informed about risks or potential risk in your ONTAP storage environment. The BlueXP alerts service provides information about these severities and impact areas: 
 
-* *Capacity* 
-* *Performance*   
-* *Availability* 
-* *Security* 
-
+* *Severities*: Critical, Error, Warning, Informational
+* *Impact areas*: Capacity, Performance, Availability, Security, Configuration
 
 //image:diagram-rp-features-phases3.png[Diagram showing BlueXP alerts strategies of identify, protect, detect, respond, and recover]
 
@@ -33,15 +30,9 @@ The BlueXP alerts service helps you stay informed about risks or potential risk 
 
 BlueXP alerts offers the following benefits: 
 
-* Discovers workloads and their existing snapshot and backup schedules, and ranks their relative importance.
-* Evaluates your alerts posture and displays it in an easy-to-understand dashboard.
-* Provides recommendations on next steps based on discovery and protection posture analysis. 
-* Applies AI/ML-driven data protection recommendations with one-click access.
-* Protects data in top application-based workloads, such as MySQL, Oracle, VMware datastores and file-shares. 
-* Detects ransomware attacks on data in real time on primary storage using AI technology.
-* Initiates automated actions in response to detected potential attacks by creating Snapshot copies and initiating alerts about abnormal activity.
-* Applies curated recovery to meet RPO policies. BlueXP alerts orchestrates recovery from ransomware incidents by using several NetApp recovery services, including BlueXP backup and recovery (formerly Cloud Backup) and SnapCenter. 
-
+* Get alerts about your ONTAP storage across clusters.
+* View alerts in the same BlueXP UI that you use for other services.
+* Drill into alerts on ONTAP clusters -- start from BlueXP alerts and see details in NetApp System Manager. 
 
 
 == Cost 
