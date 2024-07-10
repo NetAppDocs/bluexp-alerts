@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: alerts-use-dashboard.html
-keywords: alerts, alerts dashboard, ontap, netapp
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp
 summary: The BlueXP alerts service provides at-a-glance information about the health of your ONTAP environment. You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, determine availability, and identify security risks.
 ---
 
@@ -49,19 +49,27 @@ Refer to ??.
 |===
 
 
-== Review volume health
+== View ONTAP storage health
 
 .Steps
 
 . From the BlueXP left navigation, select *Monitoring* > *Alerts*. 
 +
-After discovery, the Dashboard shows a list of alerts in your ONTAP environment. 
-
+After discovery, the Alerts page shows a list of alerts in your ONTAP environment. 
++
+image:alerts-dashboard.png[BlueXP alerts Dashboard]
 
 . From the Alerts page, you can view and do any of the following: 
 
 * Change the sort order by clicking the up or down arrow for a column. 
-* Change the filter in the Severity, Status, Impact area, Source, or Source object to show only the information you want. 
-* Select a volume and drill into the alert details on that volume. 
+* Change the filter in the Severity, Status, Impact area, Source, or Source object columns to show only the information you want. 
++
+TIP: For example, you might want to see only those alerts related to capacity. To do so, click on the filter icon on the Impact area column, select *Capacity*, and select *Apply*.
++
+image:alerts-dashboard-capacity-filter.png[Alerts page showing the Impact area filters]
+* Download a CSV file containing the alerts information. 
+* Select an alert and drill into the alert details on that cluster. See link://alerts-use-alerts.html[View alert details].
+
+
 
 

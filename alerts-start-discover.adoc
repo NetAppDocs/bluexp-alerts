@@ -13,7 +13,7 @@ summary: During discovery, BlueXP alerts analyzes all volumes in ONTAP working e
 [.lead]
 To use BlueXP alerts, the service needs to first discover data. During discovery, BlueXP alerts analyzes all volumes in ONTAP working environments across all BlueXP Connectors and accounts.
 
-NOTE: Workloads with volumes that use FlexGroup or iSCSI will not be discovered. 
+//NOTE: Workloads with volumes that use FlexGroup or iSCSI will not be discovered. 
 
 
 
@@ -23,9 +23,9 @@ NOTE: Workloads with volumes that use FlexGroup or iSCSI will not be discovered.
 
 . Select *Discover workloads* from the initial landing page. 
 +
-The service discovers workload data and shows the health of your ONTAP storage environment in the Dashboard.
+The service discovers workload data and shows the health of your ONTAP storage environment on the Alerts page.
 +
-image:screen-dashboard.png[BlueXP alerts Dashboard]
+image:alerts-dashboard.png[Alerts page]
 
 //== Set up email notifications 
 

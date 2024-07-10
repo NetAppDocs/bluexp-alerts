@@ -37,10 +37,10 @@ sidebar:
           url: /alerts-use-overview.html 
         - title: View ONTAP health using the Dashboard
           url: /alerts-use-dashboard.html
-        - title: Protect workloads
-          url: /rp-use-protect.html
-        - title: Respond to a detected alert 
-          url: /rp-use-alert.html
+        - title: View alerts in your storage environment
+          url: /alerts-use-alerts.html
+        - title: View alerts in BlueXP System Manager 
+          url: /alerts-use-sm.html
     - title: FAQ
       url: /alerts-faq.html
     - title: Legal notices

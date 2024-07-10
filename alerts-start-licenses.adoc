@@ -29,7 +29,7 @@ You can try BlueXP alerts out by using a 90-day free trial. You must be an accou
 
 NOTE: No capacity limits are enforced during the trial.  
 
-You can get a license or subscribe at any time and you will not be charged until the 90-day trial ends. To continue after the 90-day trial, you'll need to purchase a BYOL license. 
+You can get a license at any time and you will not be charged until the 90-day trial ends. To continue after the 90-day trial, you'll need to purchase a BYOL license. 
 
 During the trial, you have full functionality. 
 
@@ -55,8 +55,6 @@ To add a Connector, refer to https://docs.netapp.com/us-en/bluexp-setup-admin/co
 
 After the free trial ends, you can purchase a license from NetApp.  
 
-<<Subscribe through AWS Marketplace>>
-<<Bring your own license (BYOL)>>
 
 
 
