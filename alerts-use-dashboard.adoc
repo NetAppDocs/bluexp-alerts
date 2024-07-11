@@ -34,12 +34,12 @@ Refer to ??.
 | idP certificate expiration. |?? | Do what??
 | Metadata cluster full | ?? | Do what??
 | Ransomware activity detected | Potential malicious activity has been detected.  | Use BlueXP ransomware protection service to analyze the activity.  
-Refer to https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html[Protect workloads against ransomware attacks^].
+//Refer to https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html[Protect workloads against ransomware attacks^].
 
 |REDDIR file operation timeout | Something with performance? | Do what??
 
 | Root certificate authority certificate has expired. | ?? | Do what??|Volume restricted | ?? | Do what?? 
-Refer to link:rp-use-settings.html[Configure protection settings].
+
 
 |Volume snapshot reserve days until full | ??. Something with Capacity | Do what??
 

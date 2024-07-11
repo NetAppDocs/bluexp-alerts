@@ -42,7 +42,7 @@ After you set up the service, here's what you might do next.
 [role="quick-margin-list"]
 * link:alerts-use-dashboard.html[View working environment health on the Dashboard].
 * link:alerts-use-alerts.html[View alerts in your storage environment].
-* link:alerts-use-system-manager.html[Drill into alerts in BlueXP System Manager]
+//* link:alerts-use-system-manager.html[Drill into alerts in BlueXP System Manager]
 
 
 
