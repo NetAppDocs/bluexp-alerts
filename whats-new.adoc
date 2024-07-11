@@ -28,8 +28,8 @@ This initial release of BlueXP alerts includes the following features:
 //https://docs.netapp.com/us-en/bluexp-alerts-protection/rp-use-protect.html[Learn more about protecting workloads and enabling backup locking].
 
 * *FEATURE 2*: FEATURE DESCRIPTION
-+ 
-https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html[Learn about BlueXP alerts].
+//+ 
+//https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html[Learn about BlueXP alerts].
 
 
 

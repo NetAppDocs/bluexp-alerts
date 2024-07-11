@@ -21,7 +21,7 @@ The BlueXP alerts service provides information about these severities and impact
 == Alerts you might see
 Here are some of the alerts that the service provides.
 
-For additional details on ONTAP alerts, refer to the ONTAP documentation and System Manager insights at https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html[System Manager insights into capacity, security, and configuration issues^].
+//For additional details on ONTAP alerts, refer to the ONTAP documentation and System Manager insights at https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html[System Manager insights into capacity, security, and configuration issues^].
 
 [cols=3*,options="header",cols="30,30,30",width="100%"]
 |===
