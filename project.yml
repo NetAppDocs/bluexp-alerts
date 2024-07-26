@@ -39,8 +39,6 @@ sidebar:
           url: /alerts-use-dashboard.html
         - title: View alerts in your storage environment
           url: /alerts-use-alerts.html
-        - title: View alerts in BlueXP System Manager 
-          url: /alerts-use-sm.html
     - title: FAQ
       url: /alerts-faq.html
     - title: Legal notices

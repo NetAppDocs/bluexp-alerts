@@ -15,4 +15,5 @@ Using BlueXP alerts, you can view workload health and protect workloads.
 
 * link:alerts-start-discover.html[Discover workloads in BlueXP alerts ].
 * link:alerts-use-dashboard.html[View health from the Dashboard].
+* link:alerts-use-alerts.html[View alert details that are linked in System Manager]
 

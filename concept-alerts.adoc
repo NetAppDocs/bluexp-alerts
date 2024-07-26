@@ -41,18 +41,23 @@ NetApp doesn’t charge you for using the trial version of BlueXP alerts. The fu
 
 == Licensing 
 
-With BlueXP alerts, you can use different licensing plans including a free trial or bring your own ONTAP license.
 
 The BlueXP alerts service requires a NetApp ONTAP 9.10 or greater license. 
 
+You do not need to have a trial license for this service. 
 
+The service can be deployed in the BlueXP standard (public), restricted, and private modes. 
 For details, see link:alerts-start-licenses.html[Set up licensing].
 
 == How BlueXP alerts works
 
 At a high-level, BlueXP alerts works like this.
 
-TBD
+The BlueXP alerts service is a core component of BlueXP. 
+
+
+
+The BlueXP alerts service monitors ONTAP clusters and receives alert data from ONTAP. 
 
 == Supported working environments and data sources
 
@@ -67,10 +72,9 @@ Use BlueXP alerts to check on issues in the following working environments and d
 *Working environments supported* 
 
 * On-premises ONTAP NAS (using NFS and CIFS protocols)
-* Cloud Volumes ONTAP for AWS (using NFS and CIFS protocols)
-* Cloud Volumes ONTAP for Azure (using NFS and CIFS protocols)
+//* Cloud Volumes ONTAP for AWS (using NFS and CIFS protocols)
+//* Cloud Volumes ONTAP for Azure (using NFS and CIFS protocols)
 
-NOTE: The following are not supported: FlexGroup volumes, ONTAP versions older than 9.11.1, iSCSI volumes, and Data protection (DP) volumes. 
 
 *Data sources supported*
 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: alerts-faq.html
-keywords: alerts faq, alerts frequently asked questions
-summary: This FAQ can help if you're just looking for a quick answer to a question.
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert
+summary: This BlueXP alerts FAQ can help if you're just looking for a quick answer to a question.
 ---
 
 = Frequently asked questions for BlueXP alerts
@@ -20,10 +20,9 @@ For the URL, in a browser, enter: https://console.bluexp.netapp.com/[https://con
 
 *Do you need a license to use BlueXP alerts?*
 
-You can use the following license types:
+The BlueXP alerts service requires a NetApp ONTAP 9.10 or greater license. 
 
-* Sign up for a 90-day free trial.
-* Bring your own license (BYOL), which is a NetApp License File (NLF) that you obtain from your NetApp Sales Rep. You can use the license serial number to get the BYOL activated in BlueXP digital wallet.
+You do not need to have a trial license for this service.
 
 
 *How do you enable BlueXP alerts?* 
@@ -33,7 +32,7 @@ To get going, you need to sign up or reach out to your NetApp Sales rep to try o
 
 
 **Does BlueXP alerts available in standard, restricted, and private modes?**
-At this time, BlueXP alerts is available only in standard mode. Stay tuned for more. 
+The service can be deployed in the BlueXP standard (public), restricted, and private modes. 
 
 For an explanation about these modes across all BlueXP services, refer to https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[BlueXP deployment modes^].
 

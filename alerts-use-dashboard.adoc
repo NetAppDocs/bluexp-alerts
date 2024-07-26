@@ -21,32 +21,125 @@ The BlueXP alerts service provides information about these severities and impact
 == Alerts you might see
 Here are some of the alerts that the service provides.
 
+
+// Start snippet: collapsible block (open on page load)
+.List of alerts:
+[%collapsible%open]
+====
+* Aggregate state is not online
+* Disk failure
+* Instance down
+* Node NFS latency is high
+* SnapMirror lag time is high
+* Volume state offline
+* Volume used percentage breach
+
+EMS alerts:
+
+* Antivirus server busy
+* AWS credentials not initialized
+* Cloud tier unreachable
+* Disk out of service
+* Disk shelf power supply discovered
+* Disk shelves power supply removed
+* FabricPool mirror replication resync completed
+* FabricPool space usage limit nearly reached
+* FabricPool space usage limit reached
+* FC target port commands exceeded
+* Giveback of storage pool failed
+* HA interconnect down
+* LUN destroyed
+* LUN offline
+* Main unit fan failed
+* Main unit fan in warning state
+* Max sessions per user exceeded
+* Max times open per file exceeded
+* MetroCluster automatic unplanned switchover disabled
+* MetroCluster monitoring
+* NetBIOS name conflict
+* NFSv4 sore pool exhausted
+* Node panic
+* Node root volume space low
+* Nonexistent admin share
+* Non-responsive antivirus server
+* No registered scan engine
+* No Vscan connection
+* NVMe namespace destroyed
+* NVMe namespace offline
+* NVMe namespace online
+* NVMe-oF license grace period active
+* NVMe-oF license grace period expired
+* NVMe-oF license grace period start
+* NVRAM battery low
+* Object store host unresolvable
+* Object store Intercluster LIF down
+* Object store signature mismatch
+* QoS monitor memory maxed out
+* Ransomware activity detected
+* Relocation of storage pool failed
+* ONTAP Mediator added
+* ONTAP Mediator not accessible
+* ONTAP Mediator unreachable
+* ONTAP Mediator removed
+* READDIR timeout
+* SAN "active-active" state changed
+* Service processor heartbeat missed
+* Service processor heartbeat stopped
+* Service processor offline
+* Service processor not configured
+* Shadow copy failed
+* SFP in FC target adapter receiving low power
+* SFP in FC target adapter transmitting low power
+* Shelf fan failed
+* SMBC CA certificate expired
+* SMBC CA certificate expiring
+* SMBC client certificate expired
+* SMBC client certificate expiring
+* SMBC relationship out of sync
+* SMBC server certificate expired
+* SMBC server certificate expiring
+* SnapMirror relationship out of sync
+* Storage switch power supplies failed
+* Storage VM anti-ransomware monitoring
+* Storage VM stop succeeded
+* System cannot operate due to main unit fan failure
+* Too many CIFS authentications
+* Unassigned disks
+* Unauthorized user access to admin share
+* Virus detected
+* Volume anti-ransomware monitoring
+* Volume automatic resizing succeeded
+* Volume offline
+* Volume restricted
+====
+// end of snippet
+
 //For additional details on ONTAP alerts, refer to the ONTAP documentation and System Manager insights at https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html[System Manager insights into capacity, security, and configuration issues^].
 
-[cols=3*,options="header",cols="30,30,30",width="100%"]
-|===
-| Alert
-| Description
-| How to resolve
+//[cols=3*,options="header",cols="30,30,30",width="100%"]
+//|===
+//| Alert
+//| Description
+//| How to resolve
 
-| Disconnected cluster pair | The cluster pair is not configured correctly or is disconnected. | Review the cluster configuration. 
-Refer to ??.
-| idP certificate expiration. |?? | Do what??
-| Metadata cluster full | ?? | Do what??
-| Ransomware activity detected | Potential malicious activity has been detected.  | Use BlueXP ransomware protection service to analyze the activity.  
+//| Disconnected cluster pair | The cluster pair is not configured correctly or is disconnected. | Review the cluster configuration. 
+//Refer to ??.
+//| idP certificate expiration. |?? | Do what??
+//| Metadata cluster full | ?? | Do what??
+//| Ransomware activity detected | Potential malicious activity has been detected.  | Use BlueXP ransomware protection service to analyze the activity.  
 //Refer to https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html[Protect workloads against ransomware attacks^].
 
-|REDDIR file operation timeout | Something with performance? | Do what??
+//|REDDIR file operation timeout | Something with performance? | Do what??
 
-| Root certificate authority certificate has expired. | ?? | Do what??|Volume restricted | ?? | Do what?? 
+//| Root certificate authority certificate has expired. | ?? | Do what??|Volume restricted | ?? | Do what?? 
 
 
-|Volume snapshot reserve days until full | ??. Something with Capacity | Do what??
+//|Volume snapshot reserve days until full | ??. Something with Capacity | Do what??
 
-|Volume space full. | The volume is running out of space. | Add more capacity or remove files.  
-Refer to ??.
+//|Volume space full. | The volume is running out of space. | Add more capacity or remove files.  
+//Refer to ??.
 
-|===
+//|===
 
 
 == View ONTAP storage health

@@ -17,19 +17,15 @@ Learn what's new in BlueXP alerts.
 
 // tag::whats-new[]
 
-== 10 August 2024
+== 4 September 2024
 This initial release of BlueXP alerts includes the following features:
 
 
-* *FEATURE 1*: FEATURE DESCRIPTION
-+
-//link:rp-use-protect.html[Learn more about protecting workloads  and enabling backup locking in a alerts protection strategy].
+* *BlueXP alerts Dashboard*: You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, determine availability, and identify security risks. You can view alerts related to capacity, performance, availability, security, and configuration. 
 
-//https://docs.netapp.com/us-en/bluexp-alerts-protection/rp-use-protect.html[Learn more about protecting workloads and enabling backup locking].
+* *View details linked to System Manager*: With BlueXP alerts, you can view alerts associated with your ONTAP storage environment and drill into the details that are linked to BlueXP System Manager.
 
-* *FEATURE 2*: FEATURE DESCRIPTION
-//+ 
-//https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html[Learn about BlueXP alerts].
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html[Learn about BlueXP alerts].
 
 
 
