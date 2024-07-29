@@ -23,8 +23,8 @@ Here are some of the alerts that the service provides.
 
 
 // Start snippet: collapsible block (open on page load)
-.List of alerts:
-[%collapsible%open]
+.List of alerts
+[%collapsible]
 ====
 * Aggregate state is not online
 * Disk failure
