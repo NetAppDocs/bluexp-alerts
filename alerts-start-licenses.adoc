@@ -23,19 +23,19 @@ If you want to bring your own license (BYOL), you'll need to purchase the licens
 
 *Add your license file to BlueXP digital wallet*
 
-After you've purchased your BlueXP alerts license from your NetApp Sales Rep, you activate the license by entering the BlueXP alerts serial number and NetApp Support Site (NSS) account information. 
+After you've purchased your ONTAP license from your NetApp Sales Rep, you activate the license by entering the serial number and NetApp Support Site (NSS) account information. 
 
 
 .Before you begin
 
 You'll need to have the following information before you start:
 
-* BlueXP alerts serial number
+* ONTAP serial number
 +
 Locate this number from your Sales Order, or contact the account team for this information.
-* BlueXP Account ID
+* BlueXP Organization ID
 +
-You can find your BlueXP Account ID by selecting the *Account* drop-down from the top of BlueXP, and then selecting *Manage Account* next to your account. Your Account ID is in the Overview tab. 
+You can find your BlueXP Organization ID by selecting the *Organization* drop-down from the top of BlueXP, and then selecting *Manage Organization* next to your organization. Your Organization ID is in the Overview tab. 
 
 //For private mode site without internet access, use *account-DARKSITE1*.
 
@@ -52,7 +52,7 @@ You can find your BlueXP Account ID by selecting the *Account* drop-down from th
 
 .Steps
 
-. After you obtain the license, return to BlueXP alerts. Select the *View payment methods* option in the upper right. Or, in the message that the free trial is expiring, select *Subscribe or purchase a license*. 
+. After you obtain the license, return to BlueXP alerts. Select the *View payment methods* option in the upper right.  
 
 . Select *Add license to BlueXP*. 
 +
@@ -69,32 +69,8 @@ You will be directed to BlueXP digital wallet.
 * If you have the BlueXP license serial number and know your NSS account, select the *Enter Serial Number* option and enter that information.
 +
 If your NetApp Support Site account isn't available from the drop-down list, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add the NSS account to BlueXP^].
-* If you have the BlueXP license file (required when installed in a dark site), select the *Upload License File* option and follow the prompts to attach the file.
+* If you have the BlueXP license file, select the *Upload License File* option and follow the prompts to attach the file.
 
 . Select *Add License*. 
 
-.Result
-BlueXP digital wallet now shows BlueXP alerts with a license. 
-
-
-
-== Update your BlueXP license when it expires
-
-If your licensed term is nearing the expiration date, you'll be notified in the BlueXP alerts UI. You can update your BlueXP alerts license before it expires so that there is no interruption in your ability to access your scanned data.
-
-TIP: This message also appears in BlueXP digital wallet and in https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#monitoring-operations-status-using-the-notification-center[Notifications]. 
-
-.Steps
-
-. Select the chat icon in the lower-right of BlueXP to request an extension to your term. You can also send an email to request an update to your license.
-+
-After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the BlueXP digital wallet and the Data Services Licenses page will reflect the change in 5 to 10 minutes.
-
-. If BlueXP can't automatically update the license (for example, when installed in a dark site), then you'll need to manually upload the license file.
-+
-.. You can obtain the license file from the NetApp Support Site.
-.. Access the BlueXP digital wallet.
-.. Select the *Data Services Licenses* tab, select the *Actions ...* icon for the service serial number you are updating, and select *Update License*.
-//+
-//image:digital-wallet-licenses-expired.png[NetApp BlueXP digital wallet showing expired license]
 

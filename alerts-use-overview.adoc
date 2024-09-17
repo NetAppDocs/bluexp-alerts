@@ -11,9 +11,9 @@ summary: Using BlueXP alerts, you can view workload health and protect workloads
 :imagesdir: ./media/
 
 [.lead]
-Using BlueXP alerts, you can view workload health and protect workloads.
+Using BlueXP alerts, you can view storage issues and see details with links directly to System Manager.
 
-* link:alerts-start-discover.html[Discover workloads in BlueXP alerts ].
-* link:alerts-use-dashboard.html[View health from the Dashboard].
+
+* link:alerts-use-dashboard.html[View storage issues or potential risks from the Alerts list page].
 * link:alerts-use-alerts.html[View alert details that are linked in System Manager]
 

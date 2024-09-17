@@ -24,13 +24,13 @@ For more licensing details, refer to link:concept-alerts.html[Learn about BlueXP
 
 * In BlueXP: 
 
-** A BlueXP working environment with NetApp on-premises storage (using NAS or CIFS protocols)
+** A BlueXP working environment with NetApp on-premises NAS or SAN storage 
 ** A BlueXP Connector for an on-premises region must be set up in BlueXP. Refer to https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[BlueXP documentation to configure the Connector^].
 
 
-** A BlueXP account with at least one active Connector connecting to on-premises ONTAP clusters. All source and working environments must be on the same BlueXP account. 
-** A BlueXP user account with Account Admin privileges for discovering resources
-** A BlueXP working environment with NetApp on-premises storage (using NAS or CIFS protocols)
+** A BlueXP organization with at least one active Connector connecting to on-premises ONTAP clusters. All source and working environments must be in the same BlueXP organization. 
+** A BlueXP user in that organization with Organization Admin privileges for discovering resources
+
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[Standard BlueXP requirements^]
 
 

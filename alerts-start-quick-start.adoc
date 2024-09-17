@@ -26,9 +26,9 @@ link:alerts-start-prerequisites.html[Ensure your environment meets these require
 
 
 
-[role="quick-margin-list"]
-* link:alerts-start-setup.html[Configure a Connector in BlueXP].
-* link:alerts-start-discover.html[Discover workloads in BlueXP].
+[role="quick-margin-para"]
+link:alerts-start-setup.html[Configure a Connector in BlueXP].
+
 
 
 
@@ -40,8 +40,8 @@ link:alerts-start-prerequisites.html[Ensure your environment meets these require
 After you set up the service, here's what you might do next. 
 
 [role="quick-margin-list"]
-* link:alerts-use-dashboard.html[View working environment health on the Dashboard].
-* link:alerts-use-alerts.html[View alerts in your storage environment].
+* link:alerts-use-dashboard.html[View storage issues and potential risks on the Alerts list page].
+* link:alerts-use-alerts.html[View alert details in System Manager].
 //* link:alerts-use-system-manager.html[Drill into alerts in BlueXP System Manager]
 
 

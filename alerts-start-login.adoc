@@ -24,20 +24,12 @@ The NetApp BlueXP login page appears.
 . Log in to BlueXP. 
 . From the BlueXP left navigation, select *Monitoring* > *Alerts*. 
 +
-If this is your first time logging in to this service, the landing page appears. 
-//+
-//image:screen-landing.png[Landing page screenshot for BlueXP alerts]
-+ 
-Otherwise, the BlueXP alerts Dashboard appears.
-//+
-//image:screen-dashboard.png[BlueXP alerts Dashboard]
-
+The Alerts list page appears. 
++
+image:alerts-dashboard.png[BlueXP alerts list page]
 +
 NOTE: If you don't have a BlueXP Connector or it's not the one for this service, you might need to contact NetApp Support. 
 
-. If you haven't done so already, select the *Discover workloads* option. 
-+
-Refer to link:alerts-start-discover.html[Discover workloads].
  
 //* If you are a BlueXP user with an an existing Connector, when you select "*alerts*", a message appears about signing up. 
 

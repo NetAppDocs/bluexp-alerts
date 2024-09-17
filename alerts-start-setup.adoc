@@ -16,21 +16,22 @@ To use BlueXP alerts, perform a few steps to set it up.
 
 Before you begin, review link:alerts-start-prerequisites.html[prerequisites] to ensure that your environment is ready.
 
-
-== Set up BlueXP
-Set up BlueXP and the BlueXP alerts service. 
-
 Review https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[standard BlueXP requirements^].
 
+== Access to cluster resources
 
-== Create a Connector in BlueXP
+
+To view the alerts, the logged in user must be part of the BlueXP organization and should have the required access to the cluster resource.
+
+
+== Create a BlueXP Connector
 
 You should reach out to your NetApp Sales Rep to try out or use this service. Then, when you use the BlueXP Connector, it will include the appropriate capabilities for the alerts service. 
 
 To create a Connector in BlueXP before using the service, refer to the BlueXP documentation that describes https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[how to create a BlueXP Connector^]. 
 
 
-
+After you set up the Connector and add the working environment, wait about 15 minutes for the initial discovery.
 
 //== Set up email notifications 
 

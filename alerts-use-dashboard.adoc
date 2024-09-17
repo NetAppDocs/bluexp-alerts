@@ -5,18 +5,18 @@ keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster
 summary: The BlueXP alerts service provides at-a-glance information about the health of your ONTAP environment. You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, determine availability, and identify security risks.
 ---
 
-= View ONTAP storage health at a glance using the Alerts page
+= View potential risks in ONTAP storage using the Alerts list page
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-The BlueXP alerts service provides at-a-glance information about the health of your ONTAP environment. You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, determine availability, and identify security risks.
+The BlueXP alerts service provides at-a-glance information about the potential risks in your ONTAP environment. You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, determine availability, and identify security risks.
 
 The BlueXP alerts service provides information about these severities and impact areas: 
 
-* *Severities*: Critical, Error, Warning, Informational
-* *Impact areas*: Capacity, Performance, Availability, Security, Configuration
+* *Severities*: Critical, Warning, Informational
+* *Impact areas*: Capacity, Performance, Availability, Protection, Security, Configuration
 
 == Alerts you might see
 Here are some of the alerts that the service provides.
@@ -28,8 +28,8 @@ Here are some of the alerts that the service provides.
 ====
 * Aggregate state is not online
 * Disk failure
-* Instance down
-* Node NFS latency is high
+//* Instance down
+//* Node NFS latency is high
 * SnapMirror lag time is high
 * Volume state offline
 * Volume used percentage breach
@@ -116,51 +116,28 @@ EMS alerts:
 
 //For additional details on ONTAP alerts, refer to the ONTAP documentation and System Manager insights at https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html[System Manager insights into capacity, security, and configuration issues^].
 
-//[cols=3*,options="header",cols="30,30,30",width="100%"]
-//|===
-//| Alert
-//| Description
-//| How to resolve
-
-//| Disconnected cluster pair | The cluster pair is not configured correctly or is disconnected. | Review the cluster configuration. 
-//Refer to ??.
-//| idP certificate expiration. |?? | Do what??
-//| Metadata cluster full | ?? | Do what??
-//| Ransomware activity detected | Potential malicious activity has been detected.  | Use BlueXP ransomware protection service to analyze the activity.  
-//Refer to https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html[Protect workloads against ransomware attacks^].
-
-//|REDDIR file operation timeout | Something with performance? | Do what??
-
-//| Root certificate authority certificate has expired. | ?? | Do what??|Volume restricted | ?? | Do what?? 
 
 
-//|Volume snapshot reserve days until full | ??. Something with Capacity | Do what??
 
-//|Volume space full. | The volume is running out of space. | Add more capacity or remove files.  
-//Refer to ??.
-
-//|===
-
-
-== View ONTAP storage health
+== View ONTAP storage issues
 
 .Steps
 
 . From the BlueXP left navigation, select *Monitoring* > *Alerts*. 
 +
-After discovery, the Alerts page shows a list of alerts in your ONTAP environment. 
-+
-image:alerts-dashboard.png[BlueXP alerts Dashboard]
+After discovery, the Alerts list page shows a list of alerts in your ONTAP environment. 
 
-. From the Alerts page, you can view and do any of the following: 
+. From the Alerts list page, you can view and do any of the following: 
 
 * Change the sort order by clicking the up or down arrow for a column. 
-* Change the filter in the Severity, Status, Impact area, Source, or Source object columns to show only the information you want. 
+* Change the filter in the columns to show only the information you want. 
 +
 TIP: For example, you might want to see only those alerts related to capacity. To do so, click on the filter icon on the Impact area column, select *Capacity*, and select *Apply*.
 +
 image:alerts-dashboard-capacity-filter.png[Alerts page showing the Impact area filters]
 * Download a CSV file containing the alerts information. 
++
+You can download up to 1000 alerts. 
 * Select an alert and drill into the alert details on that cluster. See link://alerts-use-alerts.html[View alert details].
 
 

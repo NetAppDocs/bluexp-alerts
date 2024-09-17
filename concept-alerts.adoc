@@ -13,7 +13,7 @@ summary: BlueXP alerts is a service that enables you to view issues or potential
 :imagesdir: ./media/
 
 [.lead]
-BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp ONTAP environment, for both on-premises and cloud environments. With the service, you can drill into details using NetApp System Manager.
+BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp ONTAP environment, for both on-premises ONTAP environments using the standard BlueXP Connector. With the service, you can drill into details using NetApp System Manager.
 
 //NOTE: THIS DOCUMENTATION IS PROVIDED AS A TECHNOLOGY PREVIEW.  With this preview offering, NetApp reserves the right to modify offering details, contents, and timeline before General Availability.   
 
@@ -21,8 +21,8 @@ BlueXP alerts is a service that enables you to view issues or potential risks in
 
 The BlueXP alerts service helps you stay informed about risks or potential risk in your ONTAP storage environment. The BlueXP alerts service provides information about these severities and impact areas: 
 
-* *Severities*: Critical, Error, Warning, Informational
-* *Impact areas*: Capacity, Performance, Availability, Security, Configuration
+* *Severities*: Critical, Warning, Informational
+* *Impact areas*: Capacity, Performance, Protection, Availability, Security, Configuration
 
 
 
@@ -37,7 +37,7 @@ BlueXP alerts offers the following benefits:
 
 == Cost 
 
-NetApp doesn’t charge you for using the trial version of BlueXP alerts. The full version of BlueXP alerts can be used with a NetApp ONTAP license.
+The full version of BlueXP alerts can be used with a NetApp ONTAP license.
 
 == Licensing 
 
@@ -46,43 +46,33 @@ The BlueXP alerts service requires a NetApp ONTAP 9.10 or greater license.
 
 You do not need to have a trial license for this service. 
 
-The service can be deployed in the BlueXP standard (public), restricted, and private modes. 
-For details, see link:alerts-start-licenses.html[Set up licensing].
+The service can be deployed in the BlueXP standard (public) mode only. For details, see link:alerts-start-licenses.html[Set up licensing].
+
+//The service can be deployed in the BlueXP standard (public), restricted, and private modes. 
+
 
 == How BlueXP alerts works
 
-At a high-level, BlueXP alerts works like this.
 
-The BlueXP alerts service is a core component of BlueXP. 
-
-
-
-The BlueXP alerts service monitors ONTAP clusters and receives alert data from ONTAP. 
+The BlueXP alerts service is a core component of BlueXP. The BlueXP alerts service monitors ONTAP clusters and receives alert data from ONTAP. 
 
 == Supported working environments and data sources
 
-Use BlueXP alerts to check on issues in the following working environments and data sources:
+Use BlueXP alerts to check on issues in the following working environments and data sources.
 
-//*Backup targets supported*
-
-//* Amazon Web Services (AWS) S3
-//* Microsoft Azure Blob
-//* NetApp StorageGRID
 
 *Working environments supported* 
 
-* On-premises ONTAP NAS (using NFS and CIFS protocols)
+An on-premises ONTAP NAS or SAN working environment is supported. 
 //* Cloud Volumes ONTAP for AWS (using NFS and CIFS protocols)
 //* Cloud Volumes ONTAP for Azure (using NFS and CIFS protocols)
 
 
 *Data sources supported*
 
-The service provides alerts regarding the following application-based workloads on primary data volumes:
+The service provides alerts regarding certain events that occur in ONTAP. They are a combination of EMS and metric-based alerts. 
 
-* NetApp file shares
-* VMware datastores
-* Databases (MySQL and Oracle)
+//For more details <link to detailed catalogue of all supported alerts>
 
 
 

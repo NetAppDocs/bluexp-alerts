@@ -21,7 +21,7 @@ Learn what's new in BlueXP alerts.
 This initial release of BlueXP alerts includes the following features:
 
 
-* *BlueXP alerts Dashboard*: You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, determine availability, and identify security risks. You can view alerts related to capacity, performance, availability, security, and configuration. 
+* *BlueXP alerts Dashboard*: You can quickly identify ONTAP clusters that have low capacity or low performance, gauge the extent of availability, and identify security risks. You can view alerts related to capacity, performance, protection, availability, security, and configuration. 
 
 * *View details linked to System Manager*: With BlueXP alerts, you can view alerts associated with your ONTAP storage environment and drill into the details that are linked to BlueXP System Manager.
 

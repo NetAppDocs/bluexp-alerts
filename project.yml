@@ -29,8 +29,6 @@ sidebar:
           url: /alerts-start-login.html
         - title: Set up licensing
           url: /alerts-start-licenses.html
-        - title: Discover workloads
-          url: /alerts-start-discover.html 
     - title: Use BlueXP alerts
       entries:
         - title: Use BlueXP alerts overview
