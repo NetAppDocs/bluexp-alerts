@@ -1,7 +1,7 @@
 indexpage:
   title: BlueXP alerts documentation
-  lead: BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp ONTAP environment related to capacity, performance, availability, and security. With the service, you can drill into details using NetApp System Manager.  
-  summary: BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp ONTAP environment. With the service, you can drill into details using NetApp System Manager.  
+  lead: BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp ONTAP environment related to capacity, performance, protection, availability, and security. With the service, you can drill into alert details and view cluster information linked to NetApp System Manager.  
+  summary: BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp ONTAP environment. With the service, you can drill into alert details and view cluster information using NetApp System Manager.  
   keywords: bluexp, ONTAP, alerts, system manager 
   tiles:
   - title: Get started
