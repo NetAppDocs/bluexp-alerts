@@ -114,7 +114,7 @@ EMS alerts:
 ====
 // end of snippet
 
-//For additional details on ONTAP alerts, refer to the ONTAP documentation and System Manager insights at https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html[System Manager insights into capacity, security, and configuration issues^].
+For details on ONTAP alerts, refer to the ONTAP documentation and System Manager insights at https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html[System Manager insights into capacity, security, and configuration issues^].
 
 
 

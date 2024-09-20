@@ -25,8 +25,6 @@ indexpage:
     links:
     - title: Use BlueXP alerts overview 
       url: /alerts-use-overview.html
-    - title: Discover workloads
-      url: /alerts-start-discover.html 
     - title: View workload health using the Dashboard
       url: /alerts-use-dashboard.html
 #   - title: Monitor BlueXP alerts jobs

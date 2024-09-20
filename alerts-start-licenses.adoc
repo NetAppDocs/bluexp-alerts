@@ -8,7 +8,7 @@ summary: Get started with BlueXP alerts by setting up licensing.
 = Set up licensing for BlueXP alerts
 :hardbreaks:
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 [.lead]
 With BlueXP alerts, only an ONTAP license is required. 

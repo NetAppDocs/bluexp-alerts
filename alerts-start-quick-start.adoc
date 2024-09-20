@@ -8,7 +8,7 @@ summary: Get started with the NetApp BlueXP alerts service in a few steps.
 = Quick start for BlueXP alerts
 :hardbreaks:
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 [.lead]
 Here's an overview of the steps needed to get started with BlueXP alerts. The links within each step take you to a page that provides more details.

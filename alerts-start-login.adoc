@@ -8,7 +8,7 @@ summary: Get started with BlueXP alerts by accessing the service in BlueXP.
 = Access BlueXP alerts
 :hardbreaks:
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 [.lead]
 You use NetApp BlueXP to log in to the BlueXP alerts service. 
