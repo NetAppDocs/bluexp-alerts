@@ -19,12 +19,12 @@ BlueXP alerts is a service that enables you to view issues or potential risks in
 
 == What you can do with BlueXP alerts 
 
-The BlueXP alerts service helps you stay informed about risks or potential risk in your ONTAP storage environment. The BlueXP alerts service provides information about these severities and impact areas: 
+The BlueXP alerts service helps you stay informed about risks or potential risk in your ONTAP storage environment. The service shows you some non-EMS alerts and some EMS alerts. The BlueXP alerts service provides information about these severities and impact areas: 
 
 * *Severities*: Critical, Warning, Informational
 * *Impact areas*: Capacity, Performance, Protection, Availability, Security, Configuration
 
-
+TIP: The Notifications option in the upper right of the BlueXP UI monitors the status of operations that BlueXP is performing to help you identify issues that you need to address. You can have these notifications sent to your email. The Notifications option does not include the alerts from BlueXP alerts service. 
 
 == Benefits of using BlueXP alerts 
 
@@ -64,6 +64,9 @@ Use BlueXP alerts to check on issues in the following working environments and d
 *Working environments supported* 
 
 An on-premises ONTAP NAS or SAN working environment is supported. 
+
+Cloud Volumes ONTAP working environments are not supported at this time. 
+
 //* Cloud Volumes ONTAP for AWS (using NFS and CIFS protocols)
 //* Cloud Volumes ONTAP for Azure (using NFS and CIFS protocols)
 

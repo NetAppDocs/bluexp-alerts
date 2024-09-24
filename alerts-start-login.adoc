@@ -27,8 +27,6 @@ The NetApp BlueXP login page appears.
 The Alerts list page appears. 
 +
 image:alerts-dashboard.png[BlueXP alerts list page]
-+
-NOTE: If you don't have a BlueXP Connector or it's not the one for this service, you might need to contact NetApp Support. 
 
  
 //* If you are a BlueXP user with an an existing Connector, when you select "*alerts*", a message appears about signing up. 

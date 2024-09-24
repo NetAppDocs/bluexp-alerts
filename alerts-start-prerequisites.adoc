@@ -16,7 +16,7 @@ Get started with BlueXP alerts by verifying the readiness of your operational en
 To use BlueXP alerts, you'll need these prerequisites: 
 
 
-* ONTAP 9.10 and later
+* ONTAP 9.10 and later. The on-premises working environment must be discovered in the BlueXP canvas.
 ** Cluster admin ONTAP permissions
 +
 For more licensing details, refer to link:concept-alerts.html[Learn about BlueXP alerts].
