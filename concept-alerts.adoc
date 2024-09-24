@@ -13,7 +13,7 @@ summary: BlueXP alerts is a service that enables you to view issues or potential
 :imagesdir: ./media/
 
 [.lead]
-BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp ONTAP environment, for both on-premises ONTAP environments using the standard BlueXP Connector. With the service, you can drill into details using NetApp System Manager.
+BlueXP alerts is a service that enables you to view issues or potential risks in your NetApp on-premises ONTAP environments using the standard BlueXP Connector. With the service, you can drill into details using NetApp System Manager.
 
 //NOTE: THIS DOCUMENTATION IS PROVIDED AS A TECHNOLOGY PREVIEW.  With this preview offering, NetApp reserves the right to modify offering details, contents, and timeline before General Availability.   
 

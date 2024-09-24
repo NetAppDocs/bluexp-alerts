@@ -49,6 +49,10 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-netapp-accounts.html[Le
 
 Wait a maximum of 15 minutes for initial discovery and after that a maximum of 5 minutes for alerts to appear. This varies from alert to alert.
 
+* *Why can't I see the alerts for ONTAP using direct mode without a BlueXP Connector?*
+
+BlueXP alerts is available only using the on-premises standard BlueXP Connector. Using the direct mode does not monitor the clusters and does not display the alerts. 
+
 **Why are some alerts disappearing from the Alerts list page?**
 
 The alerting feature keeps some alerts in an Active state and closes them after either the counter condition is met or a time period is reached. This varies from alert to alert. 
