@@ -19,13 +19,31 @@ The BlueXP alerts service provides information about these severities and impact
 * *Impact areas*: Capacity, Performance, Availability, Protection, Security, Configuration
 
 == Alerts you might see
-Here are some of the alerts that the service provides.
+Here are some of the alerts that the service displays.
 
+The EMS severity maps to the BlueXP alerts service severity in the following ways: 
+
+[cols=2*,options="header",cols="40,40" width="80%"]
+|===
+| EMS alert severity: 
+| BlueXP alert severity:
+
+
+| alert or emergency  | critical 
+
+| error  | None 
+|  Low | warning 
+| notice | informational  
+| informational | informational
+
+|===
 
 // Start snippet: collapsible block (open on page load)
 .List of alerts
 [%collapsible]
 ====
+Critical severity alerts: 
+
 * Aggregate state is not online
 * Disk failure
 //* Instance down
