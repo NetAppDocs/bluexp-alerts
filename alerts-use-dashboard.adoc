@@ -144,6 +144,8 @@ For details on ONTAP alerts, refer to the ONTAP documentation and System Manager
 . From the BlueXP left navigation, select *Monitoring* > *Alerts*. 
 +
 After discovery, the Alerts list page shows a list of alerts in your ONTAP environment. 
++
+There might be a delay between an event happening and BlueXP alerts showing it.
 
 . From the Alerts list page, you can view and do any of the following: 
 
@@ -155,7 +157,7 @@ TIP: For example, you might want to see only those alerts related to capacity. T
 image:alerts-dashboard-capacity-filter.png[Alerts page showing the Impact area filters]
 * Download a CSV file containing the alerts information. 
 +
-You can download up to 1000 alerts. 
+You can download up to 1000 alerts. The file includes data based on the filters that were set. 
 * Select an alert and drill into the alert details on that cluster. See link://alerts-use-alerts.html[View alert details].
 
 

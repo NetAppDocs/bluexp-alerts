@@ -27,8 +27,6 @@ sidebar:
           url: /alerts-start-setup.html
         - title: Access BlueXP alerts
           url: /alerts-start-login.html
-        - title: Set up licensing
-          url: /alerts-start-licenses.html
     - title: Use BlueXP alerts
       entries:
         - title: Use BlueXP alerts overview
