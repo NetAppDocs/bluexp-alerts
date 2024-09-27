@@ -56,6 +56,8 @@ The service can be deployed in the BlueXP standard (public) mode only. For detai
 
 The BlueXP alerts service is a core component of BlueXP. The BlueXP alerts service monitors ONTAP clusters and receives alert data from ONTAP. 
 
+BlueXP alerts is available only in the BlueXP SaaS environment. It is not available in a local connector UI. 
+
 == Supported working environments and data sources
 
 Use BlueXP alerts to check on issues in the following working environments and data sources.

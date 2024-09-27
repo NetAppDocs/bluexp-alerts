@@ -26,7 +26,8 @@ The license does not need to be entered in BlueXP digital wallet.
 
 ** A BlueXP working environment with NetApp on-premises NAS or SAN storage 
 ** A BlueXP Connector for an on-premises region must be set up in BlueXP. Refer to https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[BlueXP documentation to configure the Connector^].
-
++
+If a cluster is removed from a BlueXP Connector, the alerts related to that cluster remain for 90 days. Also, if you change the Connector, the alerts remain associated with the original cluster and Connector for 90 days. If you return to the original Connector, you will again see those alerts. 
 
 ** A BlueXP organization with at least one active Connector connecting to on-premises ONTAP clusters. All source and working environments must be in the same BlueXP organization. 
 ** A BlueXP user in that organization with Organization Admin privileges for discovering resources
