@@ -1,0 +1,44 @@
+---
+sidebar: sidebar
+permalink: alerts-start-setup.html
+keywords: bluexp, alerts, ontap, netapp
+summary: To use BlueXP alerts, perform a few steps to set it up.    
+---
+
+= Set up BlueXP alerts
+:hardbreaks:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+To use BlueXP alerts, perform a few steps to set it up.  
+
+
+Before you begin, review link:alerts-start-prerequisites.html[prerequisites] to ensure that your environment is ready.
+
+Review https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[standard BlueXP requirements^].
+
+== Access to cluster resources
+
+
+To view the alerts, the logged in user must be part of the BlueXP organization and should have the required access to the cluster resource.
+
+
+== Create a BlueXP Connector
+
+You should reach out to your NetApp Sales Rep to try out or use this service. Then, when you use the BlueXP Connector, it will include the appropriate capabilities for the alerts service. 
+
+To create a Connector in BlueXP before using the service, refer to the BlueXP documentation that describes https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[how to create a BlueXP Connector^]. 
+
+
+After you set up the Connector and add the working environment, wait about 15 minutes for the initial discovery.
+
+//== Set up email notifications 
+
+//You can send specific types of notifications by email so you can be informed of important system activity even when you’re not logged into BlueXP. Emails can be sent to any users who are part of your BlueXP account, or to any other recipients who need to be aware of certain types of system activity.
+
+//NOTE: Sending email notifications is not supported when the Connector is installed in a site without internet access.
+
+//By default, BlueXP Account Admins will receive emails for all "Critical" and "Recommendation" notifications. 
+
+//For instructions on configuring email settings, see https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#set-email-notification-settings[Configure email settings in BlueXP^]
