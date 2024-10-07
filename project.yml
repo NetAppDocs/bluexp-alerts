@@ -31,7 +31,7 @@ sidebar:
       entries:
         - title: Use BlueXP alerts overview
           url: /alerts-use-overview.html 
-        - title: View ONTAP health using the Dashboard
+        - title: View potential risks in ONTAP storage
           url: /alerts-use-dashboard.html
         - title: View alerts in your storage environment
           url: /alerts-use-alerts.html
