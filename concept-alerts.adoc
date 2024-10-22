@@ -46,7 +46,7 @@ The BlueXP alerts service requires a NetApp ONTAP 9.10 or greater license.
 
 You do not need to have a trial license for this service. 
 
-The service can be deployed in the BlueXP standard (public) mode only. For details, see link:alerts-start-licenses.html[Set up licensing].
+The service can be deployed in the BlueXP standard (public) mode only. 
 
 //The service can be deployed in the BlueXP standard (public), restricted, and private modes. 
 
