@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: alerts-use-alerts.html
 keywords: alerts, ontap, netapp, system manager, bluexp
-summary: With BlueXP alerts, you can view alerts associated with your ONTAP storage environment and drill into the details that are linked to BlueXP System Manager. 
+summary: With BlueXP alerts, you can view alerts associated with your ONTAP storage environment and drill into the details that are linked to ONTAP System Manager. 
 ---
 
 = View alert details in your ONTAP storage environment
@@ -22,13 +22,13 @@ image:alerts-detail.png[Alert details]
 . Scroll down to find suggested corrective actions. 
 . Scroll down to find additional alerts that are related to the object on which the alert was raised. 
 
-== View details about the cluster in BlueXP System Manager
+== View details about the cluster in ONTAP System Manager
 
 . From the Alerts list page, select an alert.
 . From the alert, click on the cluster name at the top of the page. 
 +
-BlueXP System Manager now shows you information about the cluster. 
+ONTAP System Manager now shows you information about the cluster. 
 +
-image:alerts-system-manager-cluster.png[BlueXP System Manager showing cluster information]
+image:alerts-system-manager-cluster.png[ONTAP System Manager showing cluster information]
 
 
