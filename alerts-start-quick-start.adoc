@@ -41,8 +41,8 @@ After you set up the service, here's what you might do next.
 
 [role="quick-margin-list"]
 * link:alerts-use-dashboard.html[View storage issues and potential risks on the Alerts list page].
-* link:alerts-use-alerts.html[View alert details in System Manager].
-//* link:alerts-use-system-manager.html[Drill into alerts in BlueXP System Manager]
+* link:alerts-use-alerts.html[View alert details in ONTAP System Manager].
+
 
 
 
