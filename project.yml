@@ -9,13 +9,14 @@ settings:
     pdf_enabled: true
     harmony_enabled: true
   rss_page: "whats-new.html"
+
 sidebar:
   entries:
     - title: BlueXP alerts docs
       url: /index.html
     - title: Release notes
       entries:
-        - title: What's new with BlueXP alerts
+        - title: What's new
           url: /whats-new.html 
     - title: Get started
       entries:
