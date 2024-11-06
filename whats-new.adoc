@@ -14,6 +14,7 @@ summary: Learn what's new in BlueXP alerts.
 [.lead]
 Learn what's new in BlueXP alerts.
 
+// tag::whats-new[]
 == 7 October 2024
-
 include::_whatsnew/2024-10-07.adoc[]
+// end::whats-new[]
