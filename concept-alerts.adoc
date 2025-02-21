@@ -32,7 +32,7 @@ BlueXP alerts offers the following benefits:
 
 * Get alerts about your ONTAP storage across clusters.
 * View alerts in the same BlueXP UI that you use for other services.
-* Drill into alerts on ONTAP clusters -- start from BlueXP alerts and see details in NetApp System Manager. 
+* Drill into alerts on ONTAP clusters -- start from BlueXP alerts and see details in ONTAP System Manager. 
 
 
 == Cost 
